@@ -12,7 +12,7 @@
   <asset src="www/apple-pay.js" target="js/apple-pay.js"/>
 
   <js-module src="www/apple-pay.js" name="apple-pay">
-    <clobbers target="apple-pay" />
+    <clobbers target="window.ApplePay" />
   </js-module>
 
   <platform name="ios">
