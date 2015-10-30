@@ -4,9 +4,8 @@
 
 - (void)setMerchantId:(CDVInvokedUrlCommand*)command
 {
-  NSString *result;
   merchantId = [command.arguments objectAtIndex:0];
-  result = "Set Merchant Id to: " + merchantId;
+  NSString *result = [merchantId stringByAppendingString:@" has been set as MerchantId"];
 
   NSLog(@"ApplePay set merchant id to %@", merchantId);
 
