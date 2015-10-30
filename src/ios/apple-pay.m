@@ -10,7 +10,7 @@
   NSDictionary *jsonObj = [ [NSDictionary alloc]
                              initWithObjectsAndKeys :
                                 @"true", @"success",
-                                @"merchantId set to " + merchantId, @"result",
+                                @merchantId, @"result",
                                 nil
                           ];
 
