@@ -13,4 +13,8 @@ PKPaymentAuthorizationViewControllerDelegate
     NSString *callbackId;
 }
 
+- (void)setMerchantId:(CDVInvokedUrlCommand*)command;
+- (void)getAllowsApplePay:(CDVInvokedUrlCommand*)command;
+- (void)getStripeToken:(CDVInvokedUrlCommand*)command;
+
 @end
