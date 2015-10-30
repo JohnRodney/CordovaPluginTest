@@ -4,7 +4,7 @@
 #import <PassKit/PassKit.h>
 #import <UIKit/UIKit.h>
 #import <objc/runtime.h>
-#import "Stripe.h"
+/* #import "Stripe.h" */
 
 @implementation ApplePay
 
