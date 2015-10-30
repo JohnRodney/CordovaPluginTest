@@ -4,13 +4,16 @@
 
 - (void)setMerchantId:(CDVInvokedUrlCommand*)command
 {
+  NSString *result;
   merchantId = [command.arguments objectAtIndex:0];
+  result = "Set Merchant Id to: " + merchantId;
+
   NSLog(@"ApplePay set merchant id to %@", merchantId);
 
   NSDictionary *jsonObj = [ [NSDictionary alloc]
                              initWithObjectsAndKeys :
                                 @"true", @"success",
-                                @merchantId, @"result",
+                                result, @"result",
                                 nil
                           ];
 
