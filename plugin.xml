@@ -18,8 +18,8 @@
   <platform name="ios">
 
     <config-file target="config.xml" parent="/widget">
-      <feature name="apple-pay">
-        <param name="ios-package" value="apple-pay" />
+      <feature name="ApplePay">
+        <param name="ios-package" value="ApplePay" />
       </feature>
     </config-file>
 
